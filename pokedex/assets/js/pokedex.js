@@ -98,7 +98,7 @@
         				                <p><strong>Type:</strong> ${pokemonDatos.types.map(type => type.type.name).join(', ')}</p>
         				            </div>
         				            <div id="picture">
-        				                <img src="${pokemonDatos.sprites.other['official-artwork'].front_default}">
+        				                <img class="animate__animated animate__bounce" src="${pokemonDatos.sprites.other['official-artwork'].front_default}">
         				            </div>
         				        </div>    `;
                            context.resume().then(() => {
