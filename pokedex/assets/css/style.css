@@ -68,3 +68,14 @@ align-items: center;
         font-size: 12px;
     }
 }
+
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
